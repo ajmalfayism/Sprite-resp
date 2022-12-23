@@ -1,0 +1,154 @@
+@font-face{
+    font-family: 'Aju';
+    src: url('image/futura-bt/futura-bold-italic-bt.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.navbar{
+    height: 90px;
+    background-color: #009b4e;
+}
+.nav-item{
+    font-family:'Aju';
+    
+}
+
+.list-group{
+    list-style: none;
+    margin-right: 30px;
+
+   
+}
+
+.image{
+    padding-left: 10px;
+}
+.Aju{
+
+    background-image: url("image/Homepage\ Hero_Desktop.png");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position:center;
+}
+.btndiv{
+    padding-top: 450px;
+    padding-left: 470px;
+}
+.btn1{
+    width:13rem;
+    height: 48px;
+    background-color: #e41b4f;
+    border: 2px solid white;
+    font-family: 'Aju';
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+.Signup{
+    background-color: #e41b4f;
+}
+.para1 p{
+    color: white;
+    padding-top: 10px;
+}
+.btn2{
+    width: 16rem;
+    height: 3rem;
+    border: 2px solid white;
+    background-color: #000;
+    color: white;
+    font-family: 'Aju';
+}
+.head2{
+   font-family: 'Aju';
+   font-weight: bolder;
+   font-size: 20px;
+}
+.para2 p{
+font-size: 14px;
+}
+
+.btn3{
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    background-color: #009b4e;
+    border: transparent;
+    font-family: 'Aju';
+    font-weight: bolder;
+    font-size: 15px;
+}
+.footer-main{
+    background-color: #009b4e;
+}
+.second h1{
+    font-family: 'Aju';
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+.secondlist a{
+    text-decoration: none;
+    font-family: 'Aju';
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+
+.lastul li{
+    list-style-type: none;
+    font-family: 'Aju';
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+.lastul hr{
+    color:white;
+    
+}
+@media only screen and (max-width: 776px){
+    .Aju{
+        width: 100%;
+
+        background-image: url("image/asset\ 16.png");
+        background-size: cover;    
+        background-position: center;
+        
+
+
+    }.btndiv{
+        padding-top: 170px;
+        padding-left: 220px;
+    }
+    .btn1{
+        width: 139px;
+        height: 38px;
+        background-color: #000;
+        border: 2px solid white;
+        font-family: 'Aju';
+        font-weight: bolder;
+        font-size: 15px;
+        color: white;
+    }
+    .lastul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .lastul span{
+        opacity: 0%;
+    }
+    
+    
+}    
